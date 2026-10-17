@@ -170,7 +170,6 @@
   "with"
   "given"
   "using"
-  "end"
   "implicit"
   "extension"
   "with"
@@ -186,6 +185,9 @@
   "catch"
   "throw"
 ] @keyword
+
+; `end` is scanner-lexed, so match the marker node instead of a literal token.
+(end_marker) @keyword
 
 [
   "abstract"
@@ -237,7 +239,6 @@
 [
   (comment)
   (block_comment)
-  "_end_ident"
 ] @comment
 
 ;; `case` is a conditional keyword in case_block
