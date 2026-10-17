@@ -16,6 +16,6 @@ language = "Scala"
 
 [grammars.scala]
 repository = "https://github.com/tree-sitter/tree-sitter-scala"
-commit = "97aead18d97708190a51d4f551ea9b05b60641c9"
+commit = "38950b525c9dfc44c8b60d44bdd6e54217286ca8"
 
 [debug_adapters.Metals]
